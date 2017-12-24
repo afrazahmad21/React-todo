@@ -4,5 +4,13 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+    let comments = [
+        "Hey there",
+        "Whats Up",
+        "conect Me",
+        "afrazahmad021@gmail.com"
+    ]
+
+ReactDOM.render(<App comments={comments}> </App>, document.getElementById('root'));
 registerServiceWorker();
