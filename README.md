@@ -1,4 +1,5 @@
 # React-todo  commands
 
-npm install
+npm install,
+
 npm start
